@@ -36,8 +36,8 @@ TEST(CheckPrimeTest, HandlesSmallPrimes) {
     EXPECT_TRUE(checkPrime(19));
 }
 TEST(CheckPrimeTest, HandlesLargePrime) {
-    EXPECT_TRUE(checkPrime(982451653));
-    EXPECT_TRUE(checkPrime(2147483647));
+    EXPECT_TRUE(checkPrime(982451653)); 
+    EXPECT_TRUE(checkPrime(2147483647)); 
 }
 TEST(NPrimeTest, HandlesFirstPrimes) {
     EXPECT_EQ(nPrime(1), 2);
@@ -112,7 +112,7 @@ TEST(SumPrimeTest, HandlesLargerBounds) {
     EXPECT_EQ(sumPrime(20), 77);
 }
 TEST(SumPrimeTest, HandlesKnownSums) {
-    EXPECT_EQ(sumPrime(30), 129);
-    EXPECT_EQ(sumPrime(40), 197);
-    EXPECT_EQ(sumPrime(50), 328);
+    EXPECT_EQ(sumPrime(30), 129);   
+    EXPECT_EQ(sumPrime(40), 197);   
+    EXPECT_EQ(sumPrime(50), 328);   
 }
