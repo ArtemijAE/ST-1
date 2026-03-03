@@ -1,5 +1,6 @@
 // Copyright 2025 UNN-CS
 #include <cstdint>
+#include <cmath> 
 #include "alg.h"
 
 
