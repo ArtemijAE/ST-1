@@ -115,3 +115,4 @@ TEST(SumPrimeTest, HandlesKnownSums) {
     EXPECT_EQ(sumPrime(40), 197);
     EXPECT_EQ(sumPrime(50), 328);
 }
+
